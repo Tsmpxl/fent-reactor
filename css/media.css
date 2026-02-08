@@ -1,0 +1,41 @@
+@media (max-width: 600px) {
+ .title {
+  font-size: 2rem;
+  text-align: center;
+  padding: 2rem 2rem;
+ }
+
+ .second-title {
+  font-size: 1.8rem;
+ }
+
+ .george-icon {
+  width: 310px;
+  height: 310px;
+  object-fit: cover;
+ }
+ .red-div-pill {
+  left: 200px;
+  top: 180px;
+ }
+ .blue-div-pill {
+  left: 40px;
+  top: 180px;
+ }
+
+ .blue-pill,.red-pill {
+  width: 75px;
+  height: 25px;
+ }
+
+ .pill-black {
+  height: 25px;
+  left: 38px;
+ }
+
+ .message-click {
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 20px;
+}
+}

@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+}
+
+.title-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+}
+
+.title {
+  font-size: 3rem;
+  padding-bottom: 3rem;
+  font-weight: bold;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.359);
+}
+
+.second-title{
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.359);
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.george-icon {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.pic-pill {
+  position: relative;
+}
+
+.red-pill {
+  position: absolute;
+  border: none;
+  background-color: #b20000;
+  box-shadow: 0 0 5px  #b20000, 0 0 25px #b20000, 0 0 50px  #b20000, 0 0 200px  #b20000;
+  width: 80px;
+  height: 30px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all ease 0.1s;
+}
+
+.red-pill:hover{
+  background-color: #c01f1f;
+  box-shadow: 0 0 5px  #c01f1f , 0 0 25px  #c01f1f, 0 0 50px  #c01f1f, 0 0 200px  #c01f1f ;
+}
+
+.red-pill:active{
+  background-color: #d72a2a;
+  box-shadow: 0 0 5px  #d72a2a , 0 0 25px  #d72a2a, 0 0 50px  #d72a2a, 0 0 200px  #d72a2a ;
+}
+
+.blue-pill {
+  position: absolute;
+  border: none;
+  background-color: #3a8cff;
+  box-shadow: 0 0 5px #3a8cff , 0 0 25px #3a8cff, 0 0 50px #3a8cff, 0 0 200px #3a8cff ;
+  width: 80px;
+  height: 30px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.blue-pill:hover {
+  background-color: #317ce7;
+  box-shadow: 0 0 5px  #317ce7 , 0 0 25px  #317ce7, 0 0 50px  #317ce7, 0 0 200px  #317ce7 ;
+}
+
+.blue-pill:active {
+  background-color: #438aee;
+  box-shadow: 0 0 5px  #438aee , 0 0 25px  #438aee, 0 0 50px  #438aee, 0 0 200px  #438aee ;
+}
+
+.red-div-pill{
+  position: absolute;
+  top: 300px;
+  right: 160px;
+}
+
+.blue-div-pill {
+  position: absolute;
+  top: 300px;
+  left: 80px;
+}
+
+.pill-black {
+  position: absolute;
+  height: 30px;
+  width: 2px;
+  background-color: black;
+  box-shadow: 0 0 5px black , 0 0 25px black, 0 0 50px black, 0 0 200px black ;
+  left: 40px;
+}
+
+.message-click {
+  text-align: center;
+  padding-top: 2rem;
+  font-size: 25px;
+}
